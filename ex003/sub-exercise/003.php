@@ -16,7 +16,7 @@
 
         //$telefone_contato_fornecedor = "Snake Case"; (Underline)
 
-        //nomecursosuperior = "não recomendado"
+        //nomecursosuperior = "não recomendado  "
     
     ?>
 </body>
