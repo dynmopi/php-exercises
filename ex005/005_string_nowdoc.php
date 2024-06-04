@@ -10,7 +10,7 @@
         //Tem uma diferença bem sútil entre heredoc e nowdoc
 
         $ano = date('Y');
-        echo <<< 'qualquer_coisa' // <-- repare no single quote, antes não havia. Não dá certo no vscode '-'
+       /* echo <<< 'qualquer_coisa' // <-- repare no single quote, antes não havia. Não dá certo no vscode '-'
         Posso escrever
             Sem precisar da tabulação
         Sem me preocupar com os breakroles
@@ -18,7 +18,7 @@
                     O HTML, ficará zuado
                 Escrito ano de $an
                 o 
-        qualquer_coisa;
+        qualquer_coisa; */
     
     ?>
 </body>
