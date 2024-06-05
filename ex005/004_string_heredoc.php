@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php 
-        //Strings heredoc não funcionam integralmente no html, eles servem para mostrar na área de textarea do server-de
+        //Strings heredoc não funcionam integralmente no html, eles servem para mostrar na área de textarea do server-side
 
         $ano = date('Y');
         echo <<< qualquer_coisa
