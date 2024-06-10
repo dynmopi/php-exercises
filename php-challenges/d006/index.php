@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+td{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+</style>
 <body>
     <h1></h1>
     <main>
@@ -20,21 +28,26 @@
             <input type="number" id="idivs" name="divs">
             <input type="submit" value="Analisar">
 
-            </form>
+        </form>
             <?php 
-                
-
-                
-                $quociente = ($dividendo / $divisor);
+               
+                $quociente = intdiv($dividendo, $divisor);
                 $resto = ($dividendo % $divisor);
                 
-                echo "$dividendo<br>";
-                echo "$divisor<br>";
-                echo "$quociente<br>";
-                echo "$resto<br>";
+                echo "<table>";
+                echo "<tr>";
+                    echo "<td>$dividendo</td>";
+                    echo "<td>$divisor<td>";
+                echo "</tr>";
+                echo "<tr>";
+                    echo "<td>$resto</td>";
+                    echo "<td>$quociente</td>";
+                echo "</tr>";
+            echo "</table>";
+
             ?>
             <div id="res">
-
+               
 
             </div>
         </section>
