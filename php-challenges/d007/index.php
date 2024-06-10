@@ -18,7 +18,7 @@
             </section>
             <section>
                 <?php  
-                  $num = $_GET["num"] ?? 0;
+                  $num = $_GET["num"] ?? 1412;
                   $salario_min = 1412;
   
                   echo "Considerando o salário mínimo de $salario_min";
