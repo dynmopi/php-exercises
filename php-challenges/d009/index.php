@@ -24,7 +24,7 @@
             <input type="number" id="ival1" name="val1">
 
             <label for="ipes1">1ª peso: </label>
-            <input type="number" id="ipes1" name="pes1">
+            <input type="number" id="ipes1" name="pes1" min>
 
             <label for="ival2">2ª valor: </label>
             <input type="number" id="ival2" name="val2">
