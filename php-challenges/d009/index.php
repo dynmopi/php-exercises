@@ -21,16 +21,16 @@
     <form action="<?php $_SERVER['PHP_SELF']; ?>" method="get"> <!--lembrando que a global $_SERVER, consulta a array do próprio server. o PHP_SELF é para retroalimentar de forma mais segura. -->
         <section>
             <label for="ival1">1ª valor: </label>
-            <input type="number" id="ival1" name="val1">
+            <input type="number" id="ival1" name="val1" required>
 
             <label for="ipes1">1ª peso: </label>
-            <input type="number" id="ipes1" name="pes1" min>
+            <input type="number" id="ipes1" name="pes1" min="1" required>
 
             <label for="ival2">2ª valor: </label>
-            <input type="number" id="ival2" name="val2">
+            <input type="number" id="ival2" name="val2" required>
 
             <label for="ipes2">2ª peso: </label>
-            <input type="number" id="ipes2" name="pes2">
+            <input type="number" id="ipes2" name="pes2" min="1" required>
 
             <input type="submit" value="submit">
         </section>
