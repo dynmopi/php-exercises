@@ -12,7 +12,7 @@
     <main>
         <form action="<?= $_SERVER['PHP_SELF']?>" method="get">
             <label for="ival">qual valor que deseja sacar? (R$) </label>
-            <input type="number" id="ival" name="val" required>
+            <input type="number" id="ival" name="val" required step="5">
             <input type="submit" value="enviar">
 
             <?php 
