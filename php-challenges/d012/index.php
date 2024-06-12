@@ -13,7 +13,7 @@
         <section>
             <form action="<?= $_SERVER['PHP_SELF']?>" method="get">
                 <label for="iseg">qual é o total de segundos? </label>
-                <input type="number" id="iseg" name="seg">
+                <input type="number" id="iseg" name="seg" required>
                 <input type="submit" value="submit">
                 <?php 
                     // 1min -> 60s
@@ -39,7 +39,7 @@
 
                     echo "<h2>totalizando: </h2>";
 
-                    echo "<p>analisando o valor digitado, <strong>$seg</strong> segundos equivalem a um total de: </p>";
+                    echo "<p>analisando o valor digitado, <strong>". number_format($seg, 0, ",", "."). "</strong> segundos equivalem a um total de: </p>";
                     echo "<ul><li>" . (int)($sem) . " semanas</li>";
                     echo "<li>" . (int)($dias) . " dias</li>";
                     echo "<li>" . (int)($horas) . " horas</li>";
